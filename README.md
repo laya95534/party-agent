@@ -1,27 +1,32 @@
-# 🤖 Party Assistant AI Agent
+# 🎩 Party Assistant AI Agent (Alfred)
 
-A multi-tool AI agent built using Hugging Face smolagents.
+An intelligent multi-tool AI assistant built using Hugging Face smolagents that can answer queries using multiple tools and structured data.
+
+---
 
 ## 🚀 Features
-- 🧮 Calculator tool
-- 🍽️ Menu suggestion tool
-- 🌦️ Weather tool
-- 🔄 ReAct-based reasoning
 
-## 🛠️ Tech Stack
+- 👤 Guest Information Retrieval (RAG using BM25)
+- 🌐 Web Search Tool
+- 🌤 Weather Information Tool
+- 🤖 Hugging Face Model Stats Tool
+- 🧠 Multi-step reasoning agent (ReAct style)
+
+---
+
+## 🛠 Tech Stack
+
 - Python
 - smolagents
-- Hugging Face API
+- LangChain BM25Retriever
+- Hugging Face Inference API
 
-## ▶️ How to Run
+---
 
-pip install -r requirements.txt  
-python agent.py  
+## ⚙️ How it Works
 
-## 💡 Example
+User Query → Agent → Tool Selection → Execution → Final Answer
 
-Input: Plan a superhero party and calculate 100+200  
-Output: 300  
+---
 
-## 👩‍💻 Author
-Laya Reddy
+## 🧪 Example Queries
